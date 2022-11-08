@@ -16,8 +16,8 @@ public class Main {
         Book book2 = new Book(author2, "11/22/63", 2011);
 
 
-        System.out.println("Автор: " + author + book);
-        System.out.println("Автор: " + author1 + book1);
+        System.out.println("Автор: " + book);
+        System.out.println("Автор: " + book1);
 
         System.out.println(author.equals(author1));
         System.out.println(book.equals(book1));

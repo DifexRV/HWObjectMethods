@@ -40,6 +40,6 @@ public class Book {
     }
 
     public String toString() {
-        return " Название книги: " + getBookName() + ". Год издания: " + getPublishingYear();
+        return authorName.toString() + " Название книги: " + bookName + ". Год издания: " + publishingYear;
     }
 }
